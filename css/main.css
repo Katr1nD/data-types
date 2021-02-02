@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4C8BE;
+}
+
+section {
+    font-size: 20px;
+    width: 500px;
+    padding: 25px;
+    margin: 25px;
+    border: 1px solid #6D1919;
+    background-color: #F5F6F2;
+}
+
+input {
+    box-sizing: border-box;
+    border: 1px solid #6D1919;
+    height: 25px;
+    transition: all 2s;
+}
+
+button {
+    border: 1px solid #6D1919;
+    background-color: #F0E7DA;
+    height: 25px;
+    color: #6D1919;
+}
