@@ -13,7 +13,7 @@ function checkRepeatedNum(num) {
 /**
  * @param {string} num
  */
-function isNumeric(num) {
+export function isNumeric(num) {
     return !isNaN(num) && (!!num || num !== 0) && num.trim() !== "";
 }
 
